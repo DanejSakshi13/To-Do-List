@@ -1,0 +1,14 @@
+cd venv (virtual envt)
+Scripts\Activate
+
+drag todo.db to sqlite viewer
+
+todo.db
+- flask shell
+from app import db
+db.create_all()
+
+
+to run
+python .\app.py
+ctrl click
